@@ -1,0 +1,23 @@
+{
+	"name": "tippingcanoe/laravel-oauth",
+	"description": "Offers an oauth lifecycle for Laravel projects.",
+	"authors": [
+		{
+			"name": "Alexander Trauzzi",
+			"email": "a.trauzzi@tippingcanoe.com"
+		}
+	],
+	"require": {
+		"ext-oauth": "*",
+		"laravel/framework": "4.*"
+	},
+	"autoload": {
+		"classmap": [
+			"src/migrations"
+		],
+		"psr-0": {
+			"TippingCanoe\\LaravelOauth": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
